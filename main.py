@@ -5,12 +5,12 @@ print(f'Stay: {k // n} \nBasket: {k % n}')
 print()
 
 # exercise №2
-# import math
+# # import math
 a = int(input('Students in first grade: '))
 b = int(input('Students in second grade: '))
 c = int(input('Students in third grade: '))
 desk = (a + b + c) / 2
-# # print(f'Total desks: {math.ceil(desk)}')
+# # # print(f'Total desks: {math.ceil(desk)}')
 if (a + b + c) % 2 == True:
     print(f'{desk + 0.5}')
 else:
@@ -19,7 +19,8 @@ print()
 
 # Exercise №3
 # variant №1
-print(input('Enter the number: ')[-1::-1])
+a = input('Enter the number: ')
+print(f'Answer: {a[-1::-1]}')
 print()
 # variant №2
 a = int(input('Enter the number: '))
